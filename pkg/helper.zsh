@@ -7,7 +7,7 @@ if ! core::exists fzf; then core::install fzf; fi
 if ! core::exists jq; then core::install jq; fi
 if ! core::exists bat; then core::install bat; fi
 if ! core::exists ghead; then core::install coreutils; fi
-if ! core::exists ag; then core::install the_silver_search; fi
+if ! core::exists ag; then core::install the_silver_searcher; fi
 
 function cat {
     bat ${@}
